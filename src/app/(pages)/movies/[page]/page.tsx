@@ -3,10 +3,10 @@ import Pagination from "@/app/components/pagination";
 
 
 export default function Home() {
-  return (
-    <div>
-      <MoviesList/>
-    <Pagination/>
-    </div>
-  );
+    return (
+        <div>
+            <MoviesList/>
+            <Pagination/>
+        </div>
+    );
 }
